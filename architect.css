@@ -103,9 +103,31 @@ main,footer{
 }
 
 /* features part2 styles */
-
-
-
+.features{
+    display: flex;
+    gap: 136px;
+    margin-top: 140px;
+}
+.feature-card{
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-badge-title{
+    font-size: 4rem;
+}
 
 /* facts styles */
 .facts-card-container{
