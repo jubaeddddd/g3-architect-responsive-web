@@ -124,9 +124,16 @@ main,footer{
     color: #FFF;
     width: 342px;
     padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
 .ten-years-badge-title{
     font-size: 4rem;
+    margin: 0;
+}
+.feature-image img{
+    margin-left: 60px;
 }
 
 /* facts styles */
