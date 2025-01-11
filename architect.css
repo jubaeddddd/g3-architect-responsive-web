@@ -200,15 +200,20 @@ footer {
     header{
         padding: 20px;
     }
-    nav{
+    nav,.features,.teams-container,.sponsors-image{
         flex-direction: column;
     }
     .teams-image-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .teams-container{
-        flex-direction: column;
+    .feature-image img{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .ten-years-badge{
+        position: static;
+        max-width: 300px;
     }
     .card{
         width: 90%;
@@ -218,9 +223,6 @@ footer {
     .facts-card-container{
         flex-direction: column;
         gap: 30px;
-    }
-    .sponsors-image{
-        flex-direction: column;
     }
     .image{
         margin: 40px auto;
@@ -235,7 +237,7 @@ footer {
     header{
         padding: 20px;
     }
-    nav{
+    nav,.features{
         flex-direction: column;
     }
     .teams-container{
