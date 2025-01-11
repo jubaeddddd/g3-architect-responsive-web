@@ -150,6 +150,15 @@ main{
     .teams-container{
         flex-direction: column;
     }
+    .card{
+        width: 90%;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 /* tablet devices or medium device*/
 @media screen and (min-width:576px) and (max-width:960px) {
@@ -161,5 +170,15 @@ main{
     }
     .teams-container{
         flex-direction: column;
+    }
+    .facts-card-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 90px;
+        gap: 30px;
+    }
+    .facts{
+       text-align: center;
+       margin-top: 150px;
     }
 }
