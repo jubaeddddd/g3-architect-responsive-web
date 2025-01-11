@@ -67,10 +67,11 @@ nav ul a{
 }
 
 /* main styles */
-main{
+main,footer{
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* feature part1 styles */
 .teams-container{
     display: flex;
@@ -133,6 +134,36 @@ main{
     color: #727272;
 }
 
+/* sponsors styles */
+.sponsors-description{
+    font-size: 16px;
+    color: #727272;
+}
+.sponsors{
+    text-align: center;
+    margin-top: 100px;
+}
+.sponsors-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+/* footer styles */
+footer {
+  background-color: rgba(255, 144, 14, 0.10);
+  height: 60px;
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 100px;
+  font-size: 20px;
+  color: #424242;
+}
+
+
+
+
+
 
 /* responsive media queries */
 /* mobile devices or small device*/
@@ -174,7 +205,7 @@ main{
     .facts-card-container{
         flex-direction: column;
         align-items: center;
-        margin-top: 90px;
+        margin-top: 60px;
         gap: 30px;
     }
     .facts{
