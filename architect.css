@@ -66,6 +66,40 @@ nav ul a{
     width: 100%;
 }
 
+/* main styles */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* feature part1 styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.teams-content-container{
+    max-width: 537px;
+}
+.teams-content-title{
+    font-size: 45px;
+}
+.teams-content-description{
+    font-size: 16px;
+    color: #727272;
+}
+.ash{
+    color: #727272;
+    font-weight: 450;
+}
+.orange{
+    color: #FF900E;
+}
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
 
 
 /* responsive media queries */
